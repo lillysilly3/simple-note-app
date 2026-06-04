@@ -43,9 +43,12 @@ Are you sure? (y/n): y
 #################### Goodbye! ####################
 ```
 
-## Getting Started
+## Prerequisites
 
-**Requirements:** Ruby 2.7+
+- Ruby 2.7+
+- PStore (included in Ruby standard library — no extra install needed)
+
+## Getting Started
 
 ```bash
 git clone https://github.com/lillysilly3/simple_note_app
@@ -62,7 +65,7 @@ ruby main.rb
 - `database.rb` - PStore persistence layer
 - `note.rb` - Note model
 
-## What I Learned
+## What I Explored
 
 - Object-oriented Ruby design with classes and modules
 - Separating concerns across model, database, and application layers
